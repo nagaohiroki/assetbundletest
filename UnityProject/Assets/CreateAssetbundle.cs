@@ -32,7 +32,6 @@ public class CreateAssetbundle : MonoBehaviour
 	}
 	void Start()
 	{
-		// localhost test 今は動かない
 		listener = new HttpListener();
 		const string prefix = "http://localhost:8089/";
 		listener.Prefixes.Add( prefix );
