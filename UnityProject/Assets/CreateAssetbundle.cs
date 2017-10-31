@@ -43,7 +43,6 @@ public class CreateAssetbundle : MonoBehaviour
 		download = UnityWebRequest.GetAssetBundle( assetbunlePath );
 		download.SendWebRequest();
 		text = GetComponent<TextMesh>();
-
 	}
 	void Update()
 	{
@@ -100,4 +99,3 @@ public class CreateAssetbundle : MonoBehaviour
 	}
 #endif
 }
-
