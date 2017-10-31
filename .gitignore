@@ -1,0 +1,12 @@
+*.log
+/Log
+/Dox
+/UnityProject/Temp
+/UnityProject/ROM
+/UnityProject/Library
+/UnityProject/obj
+/UnityProject/.vs
+/UnityProject/*.csproj
+/UnityProject/*.sln
+/UnityProject/*.userprefs
+/UnityProject/RegisterIcalls.cpp
